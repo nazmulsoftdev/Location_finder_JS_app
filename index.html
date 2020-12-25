@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location finder</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/titleicon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+    <!-- Social  -->
+
+    <div class="socialSection">
+        <ul>
+            <li><a href="#"><i title="facebook" class="fab fa-facebook social"></i></a></li>
+            <li><a href="#"><i title="Skype" class="fab fa-skype social"></i></a></li>
+            <li><a href="#"><i title="youtube" class="fab fa-youtube social"></i></a></li>
+            <li><a href="#"><i title="Linked" class="fab fa-linkedin social"></i></a></li>
+        </ul>
+    </div>
+
+
+
+    
+<!-- Background Setting  -->
+    <i class="fas fa-cog" onclick="mySetting()"></i>
+
+<!-- Background Change -->
+
+   <div class="settingWrap">
+     <div>
+        <i class="fas fa-cogs"></i> 
+     </div>
+     <div class="colorSection">
+       <button type="button" class="color1" onclick="color1()"></button>
+       <button type="button" class="color2" onclick="color2()"></button>
+       <button type="button" class="color3" onclick="color3()"></button>
+       <button type="button" class="color4" onclick="color4()"></button>
+       <button type="button" class="color5" onclick="color5()"></button>
+       <button type="button" class="color6" onclick="color6()"></button>
+       <button type="button" class="color7" onclick="color7()"></button>
+       <button type="button" class="color8" onclick="color8()"></button>
+       <button type="button" class="color9" onclick="color9()"></button>
+       <button type="button" class="color10" onclick="color10()"></button>
+     </div>
+     <div class="closeOption">
+         <button type="button" onclick="closeFunction()">Close</button>
+     </div>
+   </div>
+
+
+
+    <!--Location title  -->
+
+    <div class="titlewrap">
+        <h3>Find your Current location <i class="fas fa-map-marker-alt"></i></h3>
+    </div>
+
+
+
+   <!-- Location result -->
+    
+   <div class="wrapper">
+       <button type="button" class="findButton" onclick="locationShow()">Location <i class="fas fa-map-pin"></i></button>
+       <!-- MDL Progress Bar with Buffering -->
+        <div id="p3" class="mdl-progress mdl-js-progress"></div>
+        <!-- Location Text -->
+        <div class="locationText">
+            <p class="Text1"></p>
+            <p class="Text2"></p>
+        </div>
+   </div>
+
+
+
+
+
+
+
+
+
+   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="location.js"></script>
+</body>
+</html>

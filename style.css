@@ -1,0 +1,240 @@
+*{margin: 0px; padding: 0px;}
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+body{
+  background-image: url('image/locationbackground.jpg');  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* Location title Section */
+
+.titlewrap{ 
+padding: 30px 0px; 
+}
+
+.titlewrap h3{
+   text-align: center; 
+   color: #ffff;
+   font-family: 'Langar', cursive;
+   font-size: 1.5em;
+}
+
+.titlewrap .fas{
+  font-size: 25px;
+  color: rgb(221, 10, 45);  
+}
+
+.titlewrap .fas:hover{
+    color: rgb(33, 228, 7); 
+}
+
+
+/* Location result Section */
+
+.wrapper{
+  max-width: 500px;
+  height: 250px;
+  background-color: #ecf0f1;  
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.wrapper .findButton{
+ padding: 10px 30px;  
+ margin: 10px; 
+ background-color: #EA2027;
+ color: #fff;
+ border-radius: 4px;
+ border: none;
+ cursor: pointer;
+}
+
+
+.mdl-progress{
+ margin: 10px;
+ background-color: #EA2027; 
+ width: 90%;  
+ display: none;
+}
+
+
+/* Location Text */
+
+.locationText{
+  padding: 30px;
+}
+
+.locationText p{
+  text-align: center;
+  font-family: 'Langar', cursive;
+}
+
+
+/* Social Section Style */
+
+.socialSection{
+  width: 30px;
+  position: fixed;
+  right: 9px;
+  top: 250px;
+}
+
+.socialSection ul{
+ list-style: none; 
+}
+
+ .socialSection ul li{
+  float: left;
+}
+.socialSection ul li a{
+padding: 10px;  
+text-decoration: none;
+display: block;
+}
+
+.socialSection .social{
+  font-size: 22px;
+  color: #fff200;
+}
+
+.socialSection .social:hover{
+ transition: 1s;
+ color: rgb(15, 206, 15); 
+}
+
+
+/* Background Change Style */
+
+.fa-cog{
+  position: fixed;
+  top: 250px;
+  border-radius: 5px;
+  color: #ecf0f1;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.settingWrap{
+ width: 200px;
+ padding: 20px; 
+ background-color: #f5f6fa;
+ position: fixed;
+ top: 250px;
+ border-radius: 5px;
+ display: none;
+}
+
+.settingWrap .colorSection button{
+ padding: 10px 15px; 
+ margin: 5px;
+ border-radius:2px;
+ border: none;
+ cursor: pointer;
+}
+
+.color1{
+background-image: url('image/color1.jpg');
+background-size: cover;  
+}
+
+.color2{
+background-image: url('image/color2.jpg');
+background-size: cover;  
+}
+    
+.color3{
+background-image: url('image/color3.jpg');
+background-size: cover;  
+}
+.color4{
+background-image: url('image/color4.jpg');
+background-size: cover;  
+}
+
+.color5{
+background-image: url('image/color5.jpg');
+background-size: cover;  
+}   
+
+.color6{
+background-image: url('image/color6.jpg');
+background-size: cover;  
+}   
+
+.color7{
+  background-image: url('image/color7.jpg');
+  background-size: cover;  
+  }
+
+.color8{
+background-image: url('image/color8.jpg');
+background-size: cover;  
+} 
+
+.color9{
+background-image: url('image/color9.jpg');
+background-size: cover;  
+}   
+
+.color10{
+background-image: url('image/color10.jpg');
+background-size: cover;  
+}   
+
+.settingWrap .colorSection{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.closeOption button{
+  padding:5px; 
+  margin: 5px;
+  border-radius:2px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin-top: 10px;
+  background-color: #ff3838;
+  color: #ffff;
+  cursor: pointer;
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    max-width: 400px;
+    background-color: lightblue;
+  }
+
+
+  .socialSection{
+  
+    width: 300px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    top: 550px;
+  }
+
+  .socialSection ul{
+    text-align: center;
+  }
+
+  .socialSection ul li a{
+    padding: 10px 25px;  
+    text-decoration: none;
+    display: block;
+    }
+
+
+}
